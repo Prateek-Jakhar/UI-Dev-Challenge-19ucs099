@@ -1,0 +1,29 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.hover_img1 p {
+  position: relative;
+  cursor: pointer;
+}
+
+.hover_img1 {
+  /* width: "2000px"; */
+}
+.hover_img1 p span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+  cursor: pointer;
+}
+.hover_img1 p:hover span {
+  display: block;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+  cursor: auto !important;
+}

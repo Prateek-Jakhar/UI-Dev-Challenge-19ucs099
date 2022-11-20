@@ -1,0 +1,23 @@
+.firstLine {
+  color: #6d758d;
+  font-family: Inter, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.thirdLine {
+  color: #0e101a;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card {
+  width: 313px;
+  height: 306px;
+  padding: 0px 32px;
+}

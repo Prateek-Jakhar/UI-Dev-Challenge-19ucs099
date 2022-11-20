@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 0px 24px;
+}
+
+.logIn {
+  color: #0e101a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: Inter, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #0e101a;
+  font-family: Inter, sans-serif;
+  font-size: 42px;
+  letter-spacing: -0.005em;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.back {
+  position: absolute;
+  z-index: -1;
+  width: 70vw;
+  margin-left: -10vw;
+  margin-top: -6vh;
+}
+
+.cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featuresRight {
+  width: 355px;
+  height: 492px;
+}

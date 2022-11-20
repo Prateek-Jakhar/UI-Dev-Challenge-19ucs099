@@ -1,0 +1,28 @@
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+
+h1 {
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.sideBySide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hover_img h1 {
+  position: relative;
+}
+.hover_img h1 span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+.hover_img h1:hover span {
+  display: block;
+}
